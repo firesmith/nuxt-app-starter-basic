@@ -1,6 +1,6 @@
-# ackushiw-website
+# Nuxt App Starter (basic)
 
-> My personal website
+> A starter template for helping jump start development of nuxt apps
 
 ## Build Setup
 
