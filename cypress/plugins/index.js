@@ -19,42 +19,42 @@ const webpackOptions = {
     rules: [
       {
         test: /\.vue$/,
-        loader: 'vue-loader'
+        loader: 'vue-loader',
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
       },
       {
         test: /\.css$/,
         use: [
           'vue-style-loader',
-          'css-loader'
-        ]
-      }
-    ]
+          'css-loader',
+        ],
+      },
+    ],
   },
   plugins: [
     // make sure to include the plugin!
-    new VueLoaderPlugin()
+    new VueLoaderPlugin(),
   ],
   resolve: {
     modules: [
       path.resolve(__dirname, '../../src'),
-      path.resolve(__dirname, '../../node_modules')
+      path.resolve(__dirname, '../../node_modules'),
     ],
     alias: {
       '~': path.resolve(__dirname, '../../src'),
-      '@': path.resolve(__dirname, '../../src')
-    }
-  }
+      '@': path.resolve(__dirname, '../../src'),
+    },
+  },
 }
 
 const options = {
   // send in the options from your webpack.config.js, so it works the same
   // as your app's code
   webpackOptions,
-  watchOptions: {}
+  watchOptions: {},
 }
 
 module.exports = (on, config) => {

@@ -19,24 +19,24 @@ export default defineComponent({
   props: {
     amount: {
       required: true,
-      type: Number
+      type: Number,
     },
     title: {
       required: true,
-      type: String
-    }
+      type: String,
+    },
   },
   setup ({ amount, title }) {
     const state: IState = reactive({
       multi: 1,
-      result: computed(() => amount * state.multi)
+      result: computed(() => amount * state.multi),
     })
 
     const name = ref(title)
     return {
       name,
-      state
+      state,
     }
-  }
+  },
 })
 </script>

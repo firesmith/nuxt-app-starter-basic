@@ -36,8 +36,8 @@ import TypescriptTest from '~/components/TypescriptTest.vue'
 export default {
   components: {
     Logo,
-    TypescriptTest
-  }
+    TypescriptTest,
+  },
 }
 </script>
 
