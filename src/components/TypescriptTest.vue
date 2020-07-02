@@ -8,14 +8,14 @@
 </template>
 
 <script lang="ts">
-import { createComponent, computed, reactive, ref } from '@vue/composition-api'
+import { defineComponent, computed, reactive, ref } from '@vue/composition-api'
 
 interface IState {
   multi: number,
   result: number
 }
 
-export default createComponent({
+export default defineComponent({
   props: {
     amount: {
       required: true,
