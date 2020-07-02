@@ -10,11 +10,11 @@
     "cypress:run": "cypress run",
     "dev": "nuxt",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .eslintignore .",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .eslintignore .",
     "start": "nuxt start"
   },
   "lint-staged": {
-    "*.{js,vue}": "eslint"
+    "*.{js,ts,vue}": "eslint"
   },
   "husky": {
     "hooks": {
