@@ -1,7 +1,7 @@
 {
-  "name": "ackushiw-website",
+  "name": "nuxt-website",
   "version": "1.0.0",
-  "description": "My personal website",
+  "description": "My new website",
   "author": "Alexander Kushi-Willis",
   "private": true,
   "scripts": {
@@ -22,27 +22,30 @@
     }
   },
   "dependencies": {
+    "@nuxt/content": "^1.4.1",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@vue/composition-api": "^1.0.0-beta.1",
     "nuxt": "^2.13.2"
   },
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^5.4.1",
-    "@nuxt/typescript-build": "^1.0.3",
+    "@nuxt/typescript-build": "^2.0.3",
     "@nuxtjs/eslint-config": "^3.0.0",
-    "@nuxtjs/eslint-config-typescript": "^2.0.0",
+    "@nuxtjs/eslint-config-typescript": "^3.0.0",
     "@nuxtjs/eslint-module": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@types/bluebird": "^3.5.32",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
     "babel-eslint": "^10.0.1",
     "babel-plugin-module-resolver": "^4.0.0",
     "browser-env": "^3.3.0",
-    "cypress": "^4.9.0",
+    "cypress": "^5.2.0",
     "cypress-vue-unit-test": "^3.0.0",
     "eslint": "^7.3.1",
     "eslint-plugin-cypress": "^2.8.1",
     "eslint-plugin-nuxt": "^1.0.0",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
+    "nuxt-rfg-icon": "^0.6.4",
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^1.0.0",
     "require-extension-hooks-vue": "^3.0.0"

@@ -1,15 +1,5 @@
 module.exports = {
-  root: true,
-  // env: {
-  //   browser: true,
-  //   node: true
-  // },
-  parserOptions: {
-    parser: 'babel-eslint',
-    sourceType: 'module',
-  },
   extends: [
-    'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     '@nuxtjs/eslint-config-typescript',
